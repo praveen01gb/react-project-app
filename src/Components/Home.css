@@ -1,0 +1,50 @@
+.banner{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 700px;
+    background-image: url("https://bootstrapmade.com/demo/templates/Company/assets/img/slide/slide-2.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner_content
+{
+    background-color: rgba(0, 0, 0, 0.77);
+    color: white;
+    width: 711px;
+    padding: 18px 20px;
+    border-top: 5px solid #1bbd36;
+}
+
+.banner .banner_content p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner .banner_content .banner_btn
+{
+    width: 107px;
+    height: 34px;
+    margin: 5px auto;
+
+}
+.banner .banner_content a
+{
+    border: 2px solid #1bbd36;
+    padding: 7px 9px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color .7s;
+}
+
+.banner .banner_content a:hover
+{
+    background-color: #1bbd36;
+}

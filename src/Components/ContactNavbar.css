@@ -1,0 +1,21 @@
+.contact-nav{
+    background-color: #1bbd36;
+    display: flex;
+    margin-top: 90px;
+}
+
+.contact-nav .leftside{
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    
+}
+
+.contact-nav .rightside{
+    margin-top: 25px;
+    margin-left: 900px;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.container{
+    background-color: white;
+    padding: 24px;
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+
+.container .logo{
+    /* padding: 10px; */
+    font-size: 28px;
+    margin-left: 100px;
+    /* text-decoration: none; */
+    font-weight: 650;
+    /* color: black; */
+}
+
+.container .content{
+    margin-left: 400px;
+    padding: 10px;
+    font-weight: bold;
+    /* text-decoration: none; */
+}
+

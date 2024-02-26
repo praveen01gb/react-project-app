@@ -1,0 +1,165 @@
+.contact-details{
+    /* border: 2px solid red; */
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    width: 75vw;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-details .contact-location,.contact-mail,.contact-phone{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.contact-details .contact-location{
+    width: 250px;
+    height: 140px;
+    position: relative;
+}
+
+.contact-details .contact-location .location-icon{
+    font-size: 30px;
+    color: #1bbd36;
+    border: 1px solid #1bbd36;
+    border-radius: 50%;
+    padding: 10px 15px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+.contact-details .contact-location .location-content{
+    margin-left: 70px;
+}
+
+.contact-details .contact-location .location-content h2{
+    font-size: x-large;
+}
+
+.contact-details .contact-location .location-content p{
+    margin-top: -10px;
+}
+
+.contact-details .contact-location .location-icon:hover{
+    background-color: #1bbd36;
+    color: white;
+}
+
+.contact-details .contact-mail{
+    width: 250px;
+    height: 140px;
+    position: relative;
+}
+
+.contact-details .contact-mail .mail-icon{
+    font-size: 25px;
+    color: #1bbd36;
+    border: 1px solid #1bbd36;
+    border-radius: 50%;
+    padding: 15px 15px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+.contact-details .contact-mail .mail-content{
+    margin-left: 70px;
+}
+
+.contact-details .contact-mail .mail-content h2{
+    font-size: x-large;
+}
+
+.contact-details .contact-mail .mail-content p{
+    margin-top: -10px;
+}
+
+.contact-details .contact-mail .mail-icon:hover{
+    background-color: #1bbd36;
+    color: white;
+}
+
+.contact-details .contact-phone{
+    width: 250px;
+    height: 140px;
+    position: relative;
+}
+
+.contact-details .contact-phone .phone-icon{
+    font-size: 25px;
+    color: #1bbd36;
+    border: 1px solid #1bbd36;
+    border-radius: 50%;
+    padding: 15px 17px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+.contact-details .contact-phone .phone-content{
+    margin-left: 70px;
+}
+
+.contact-details .contact-phone .phone-content h2{
+    font-size: x-large;
+}
+
+.contact-details .contact-phone .phone-content p{
+    margin-top: -10px;
+}
+
+.contact-details .contact-phone .phone-icon:hover{
+    background-color: #1bbd36;
+    color: white;
+}
+
+.form-details{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    height: 400px;
+    width: 75vw;
+    margin: 30px auto;
+}
+
+.form-details .form-name,.form-mail{
+    margin: 20px 20px;
+}
+
+.form-details .form-name{
+    width: 45%;
+    height: 35px;
+}
+
+.form-details .form-email{
+    width: 45%;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.form-details .form-subject{
+    width: 95%;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.form-details .form-message{
+    width: 95%;
+    height: 130px;
+    margin-left: 20px;
+}
+
+.form-details .form-btn{
+    margin: 20px 425px;
+    padding: 10px 20px;
+    background-color: #1bbd36;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}

@@ -1,0 +1,117 @@
+.cards
+    {
+        background-color: rgba(211, 211, 211, 0.307);
+        padding: 20px 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    @media iframe {
+        
+    }
+
+    .cards .card
+    {
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        transition: all .8s;
+
+    }
+
+    .cards .card:hover
+    {
+        box-shadow: 2px 2px 30px 10px lightgray;
+    }
+
+    
+    .cards .card .card_content
+    {
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card .card_content h2
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cards .card .card_content i
+    {
+        font-size: 28px;
+        background-color: rgba(128, 128, 128, 0.15);
+        padding: 20px;
+        border-radius: 100%;
+        font-weight: bold;
+        transition: all .8s;
+    }
+    
+    /* .faanchor
+    {
+        color: rgb(19, 181, 235);
+    }
+    .cards .card:hover .faanchor
+    {
+        background-color: rgb(19, 181, 235);
+        color: white;
+    } */
+    
+    .fa-file-text-o
+    {
+        color: orange;
+    }
+
+    .cards .card:hover .fa-file-text-o
+    {
+        background-color: orange;
+        color: white;
+    }
+    .fa-tachometer
+    {
+        color: crimson;
+    }
+
+    .cards .card:hover .fa-tachometer
+    {
+        background-color: crimson;
+        color: white;
+    }
+    .fa-sticky-note-o
+    {
+        color: rgb(255, 230, 0);
+    }
+    .cards .card:hover .fa-sticky-note-o
+    {
+        background-color: rgb(255, 230, 0);
+        color: white;
+    }
+    .fa-youtube-play
+    {
+        color: red;
+    }
+    .cards .card:hover .fa-youtube-play
+    {
+        background-color: red;
+        color: white;
+    }
+ 
+    .fa-anchor
+    {
+        color: rgb(148, 211, 233);
+    }
+    .cards .card:hover .fa-anchor
+    {
+        background-color: rgb(148, 211, 233);
+        color: white;
+    }
